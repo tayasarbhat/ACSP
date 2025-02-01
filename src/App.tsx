@@ -112,7 +112,7 @@ function App() {
       platinum: acc.platinum + row.platinum,
       standard: acc.standard + row.standard,
       total: acc.total + row.total,
-      target: acc.target + row.target,
+      target: acc.target,
       achieved: acc.achieved + row.achieved,
       remaining: acc.remaining + row.remaining
     }), {
